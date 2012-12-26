@@ -1,5 +1,5 @@
 <script type="text/javascript"
-	src="<?php echo get_template_directory_uri(); ?>/script/jquery.nivo.slider.pack.js"></script>
+	src="http://pitterpatterpetsit.com/wp-content/uploads/2012/12/jquery.nivo_.slider.js"></script>
 	<?php 
 $interval=get_opt('_nivo_interval');
 $animation=get_opt('_nivo_animation');
@@ -30,9 +30,9 @@ switch ($navigation){
 <script type="text/javascript">
 jQuery(function(){
 	pexetoSite.loadNivoSlider(jQuery('#nivo-slider'), "<?php echo $animation; ?>" , <?php echo $buttons; ?>, <?php echo $arrows; ?>, <?php echo $slices; ?>, <?php echo $speed; ?>, <?php echo $interval; ?>, <?php echo $pauseOnHover; ?>, <?php echo $autoplay; ?>, <?php echo $columns; ?>, <?php echo $rows; ?>);
-
 });
 </script>
+
 <div id="layered-logo">
 <?php 
 	// home page

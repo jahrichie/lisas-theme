@@ -176,6 +176,7 @@ pexetoSite = {
 						keyboardNav : true, // Use left & right arrows
 						pauseOnHover : pauseOnHover, // Stop animation while hovering
 						manualAdvance : !autoplay, // Force manual transitions
+						randomStart: true,
 						captionOpacity : 0.8, // Universal caption opacity
 						beforeChange : function() {
 						},
